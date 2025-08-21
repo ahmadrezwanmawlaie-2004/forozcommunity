@@ -6,7 +6,11 @@ const HomePageFooter = () => {
       <div className="grid grid-cols-2 gap-5 w-full">
         <div className="flex flex-col p-10">
           <div>
-            <img src={logoH} alt="Foroz Logo" className="w-full h-auto mb-4" />
+            <img
+              src={logoH}
+              alt="Foroz Logo"
+              className="w-[150px] h-[50px] mb-4"
+            />
           </div>
           <div>
             <h3 className="text-white text-3xl">Stay Update</h3>
