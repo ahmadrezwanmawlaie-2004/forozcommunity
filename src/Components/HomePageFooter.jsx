@@ -9,18 +9,18 @@ const HomePageFooter = () => {
             <img
               src={logoH}
               alt="Foroz Logo"
-              className="w-[150px] h-[50px] mb-4"
+              className="w-[150px] h-[50px] mb-4 cursor-pointer"
             />
           </div>
           <div>
-            <h3 className="text-white text-3xl">Stay Update</h3>
-            <p className="text-white text-sm">
+            <h3 className="text-white text-3xl cursor-pointer">Stay Update</h3>
+            <p className="text-white text-sm cursor-pointer">
               Sign up to stay in the loop on all things Passage, from
               announcements, to new opportunities and programs.
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex md:flex-row lg:flex lg:flex-row p-10 gap-5 font-sans text-white ">
+        <div className="flex flex-col cursor-pointer md:flex md:flex-row lg:flex lg:flex-row p-10 gap-5 font-sans text-white ">
           <p>Opportunites</p>
           <p>Get Involved</p>
           <p>Company</p>
@@ -30,7 +30,7 @@ const HomePageFooter = () => {
       <div className="p-10 pt-0 flex flex-col md:flex-row lg:flex-row items-center justify-center md:justify-start lg:justify-start">
         <input
           type="email"
-          className="w-full md:w-1/2 lg:w-1/3 p-2 rounded-md bg-white text-black"
+          className="w-full cursor-pointer md:w-1/2 lg:w-1/3 p-2 rounded-md bg-white text-black"
           placeholder="Your E-mail"
           aria-label="Recipient's email"
           aria-describedby="button-addon2"
@@ -43,7 +43,7 @@ const HomePageFooter = () => {
           I'm in
         </button>
       </div>
-      <div className="flex flex-col md:flex-row lg:flex-row gap-4 pl-10 pb-5">
+      <div className="flex flex-col md:flex-row lg:flex-row gap-4 pl-10 pb-5 cursor-pointer">
         <p className="text-white">© 2025 Foroz Inc. All Rights Reserved.</p>
         <p className="text-white">Privacy Policy</p>
         <p className="text-white">Terms of Service</p>
@@ -51,10 +51,10 @@ const HomePageFooter = () => {
       </div>
       <div className="flex pl-10">
         <img src={locationIcon} alt="Location Icon" className="w-6 h-6" />
-        <p className="text-white text-2xl">Kabul, Afghanistan</p>
+        <p className="text-white text-2xl cursor-pointer">Kabul, Afghanistan</p>
       </div>
       <div>
-        <p class="text-center text-[#969494] mt-2 pt-5">
+        <p class="text-center cursor-pointer text-[#969494] mt-2 pt-5">
           Terms and conditions apply. All trademarks and logos and brand names
           are the property of their respective owners.
         </p>
