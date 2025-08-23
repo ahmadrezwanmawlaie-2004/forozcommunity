@@ -88,7 +88,7 @@ const MobileMenu = () => {
             <li>
               <a
                 href="#"
-                class="block hover:underline hover:decoration-solid hover:decoration-[white] text-lg hover:decoration-3 hover:underline-offset-10"
+                class="block hover:underline hover:decoration-solid hover:decoration-[white] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[white] text-lg active:decoration-3 active:underline-offset-10"
               >
                 Home
               </a>
@@ -96,7 +96,7 @@ const MobileMenu = () => {
             <li>
               <a
                 href="#"
-                class="block hover:underline hover:decoration-solid hover:decoration-[white] text-lg hover:decoration-3 hover:underline-offset-10"
+                class="block hover:underline hover:decoration-solid hover:decoration-[white] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[white] text-lg active:decoration-3 active:underline-offset-10"
               >
                 About
               </a>
@@ -104,7 +104,7 @@ const MobileMenu = () => {
             <li>
               <a
                 href="#"
-                class="block hover:underline hover:decoration-solid hover:decoration-[white] text-lg hover:decoration-3 hover:underline-offset-10"
+                class="block hover:underline hover:decoration-solid hover:decoration-[white] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[white] text-lg active:decoration-3 active:underline-offset-10"
               >
                 Services
               </a>
@@ -112,7 +112,7 @@ const MobileMenu = () => {
             <li>
               <a
                 href="#"
-                class="block hover:underline hover:decoration-solid hover:decoration-[white] text-lg hover:decoration-3 hover:underline-offset-10"
+                class="block hover:underline hover:decoration-solid hover:decoration-[white] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[white] text-lg active:decoration-3 active:underline-offset-10"
               >
                 Contact
               </a>
