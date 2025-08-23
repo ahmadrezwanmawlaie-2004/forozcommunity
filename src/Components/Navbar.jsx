@@ -75,7 +75,7 @@ const MobileMenu = () => {
       {menu ? (
         <div
           id="menu"
-          class="fixed top-0 left-0 w-[400px] h-full bg-[#03143D] opacity-95 text-white"
+          class="fixed top-0 left-0 md:w-[400px] lg:w-[400px] w-[200px] h-full bg-[#03143D] opacity-95 text-white"
         >
           <button
             id="close-btn"
