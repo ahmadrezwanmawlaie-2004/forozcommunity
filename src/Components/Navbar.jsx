@@ -19,19 +19,19 @@ const Navbar = () => {
         <div className="hidden md:block lg:block xl:block">
           <nav>
             <ul className="flex gap-5 text-lg font-sans cursor-pointer items-center">
-              <li className="hover:underline hover:decoration-solid  hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10">
+              <li className="hover:underline hover:decoration-solid  hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10">
                 Opportuities <sup className="text-blue-400">+</sup>
               </li>
-              <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10">
+              <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10">
                 Home
               </li>
-              <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10">
+              <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10">
                 About
               </li>
-              <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10">
+              <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10">
                 Our Vision
               </li>
-              <button className="rounded-4xl text-white bg-[#062A7F] font-sans px-[22px] py-3 hover:bg-[#2154c9]">
+              <button className="rounded-4xl text-white bg-[#062A7F] font-sans px-[22px] py-3 hover:bg-[#2154c9] active:bg-[#2154c9]">
                 Login
               </button>
             </ul>
@@ -80,7 +80,7 @@ const MobileMenu = () => {
           <button
             id="close-btn"
             onClick={toggleMenu}
-            class="absolute top-4 right-4 hover:text-2xl hover:font-bold cursor-pointer"
+            class="absolute top-4 right-4 hover:text-2xl hover:font-bold active:text-2xl active:font-bold cursor-pointer"
           >
             ✕
           </button>
@@ -117,7 +117,7 @@ const MobileMenu = () => {
                 Contact
               </a>
             </li>
-            <button className="rounded-4xl cursor-pointer w-full text-white bg-[#062A7F] font-sans px-[22px] py-3 hover:bg-[#2154c9]">
+            <button className="rounded-4xl cursor-pointer w-full text-white bg-[#062A7F] font-sans px-[22px] py-3 hover:bg-[#2154c9] active:bg-[#2154c9]">
               Login
             </button>
           </ul>
