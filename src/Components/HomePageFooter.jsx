@@ -4,12 +4,12 @@ const HomePageFooter = () => {
   return (
     <div className="bg-[#03143D]">
       <div className="grid grid-cols-2 gap-5 w-full">
-        <div className="flex flex-col p-10">
+        <div className="flex flex-col p-10 pb-2">
           <div>
             <img
               src={logoH}
               alt="Foroz Logo"
-              className="w-[150px] h-[50px] mb-4 cursor-pointer"
+              className="w-[150px] h-[50px] mb-2 cursor-pointer"
             />
           </div>
           <div>
@@ -30,7 +30,7 @@ const HomePageFooter = () => {
       <div className="p-10 pt-0 flex flex-col md:flex-row lg:flex-row items-center justify-center md:justify-start lg:justify-start">
         <input
           type="email"
-          className="w-full cursor-pointer md:w-1/2 lg:w-1/3 p-2 rounded-md bg-white text-black"
+          className="w-full cursor-pointer md:w-1/2 lg:w-1/3 p-2 rounded-md border-0 bg-white hover:border-4 hover:border-[#1b3b87] text-black"
           placeholder="Your E-mail"
           aria-label="Recipient's email"
           aria-describedby="button-addon2"
@@ -43,7 +43,7 @@ const HomePageFooter = () => {
           I'm in
         </button>
       </div>
-      <div className="flex flex-col md:flex-row lg:flex-row gap-4 pl-10 pb-5 cursor-pointer">
+      <div className="flex flex-col md:flex-row lg:flex-row gap-4 p-10 pb-3 pt-20 cursor-pointer">
         <p className="text-white">© 2025 Foroz Inc. All Rights Reserved.</p>
         <p className="text-white">Privacy Policy</p>
         <p className="text-white">Terms of Service</p>
