@@ -7,8 +7,8 @@ const Navbar = () => {
     setMenu(!menu);
   };
   return (
-    <div className="p-3">
-      <div className="flex justify-between items-center">
+    <div className="p-3 px-6">
+      <div className="flex justify-between items-center ">
         <div>
           <img
             src={logoH}
@@ -61,6 +61,7 @@ const Navbar = () => {
           {menu ? <MobileMenu /> : null}
         </div>
       </div>
+      <hr className="bg-[#959191]  text-[#959191] border-solid border-[#959191] h-[2px] my-3" />
     </div>
   );
 };
