@@ -1,5 +1,6 @@
 import logoH from "../assets/Logo-H.svg";
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
           <img
             src={logoH}
             alt="Page-Logo"
-            className="w-[220px] h-[100px] lg:w-[240px] lg:h-[100px]"
+            className="w-[180px] h-[100px] lg:w-[200px] lg:h-[100px]"
           />
         </div>
         <div className="hidden md:block lg:block xl:block">
@@ -66,22 +67,26 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+
 const MobileMenu = () => {
   const [menu, setMenu] = useState(true);
   const toggleMenu = () => {
     setMenu(!menu);
   };
   return (
-    <div>
+    <AnimatePresence>
       {menu ? (
-        <div
-          id="menu"
-          class="fixed top-0 left-0 md:w-[400px] lg:w-[400px] w-[200px] h-full bg-[#03143D] opacity-95 text-white"
+        <motion.div
+          initial={{ x: "-100%", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: "-100%", opacity: 0 }}
+          transition={{ duration: 0.6 }}
+          className="fixed top-0 left-0 md:w-[400px] lg:w-[400px] w-[200px] h-full bg-[#03143D] opacity-95 text-white"
         >
           <button
             id="close-btn"
             onClick={toggleMenu}
-            class="absolute top-4 right-4 hover:text-2xl hover:font-bold active:text-2xl active:font-bold cursor-pointer"
+            className="absolute top-4 right-4 hover:text-2xl hover:font-bold active:text-2xl active:font-bold cursor-pointer"
           >
             ✕
           </button>
@@ -122,8 +127,8 @@ const MobileMenu = () => {
               Login
             </button>
           </ul>
-        </div>
+        </motion.div>
       ) : null}
-    </div>
+    </AnimatePresence>
   );
 };
