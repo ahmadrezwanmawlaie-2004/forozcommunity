@@ -31,7 +31,7 @@ const HomeBody = () => {
             <img
               src={coverImg}
               alt="Cover Image"
-              className="shadow-lg rounded-2xl lg:h-[400px] lg:w-[600px] md:h-[300px] md:w-[400px] sm:h-[200px] sm:w-[300px] h-[60px] w-[200px]"
+              className="shadow-lg rounded-2xl lg:h-[400px] lg:w-[600px] md:h-[300px] md:w-[400px] sm:h-[200px] sm:w-[300px] h-[40px] w-[200px]"
             />
           </div>
         </div>
