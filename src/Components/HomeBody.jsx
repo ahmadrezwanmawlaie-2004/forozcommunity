@@ -31,7 +31,7 @@ const HomeBody = () => {
             <img
               src={coverImg}
               alt="Cover Image"
-              className="shadow-lg rounded-2xl lg:h-[400px] lg:w-[600px] md:h-[300px] md:w-[400px] sm:h-[200px] sm:w-[300px] h-[40px] w-[200px]"
+              className="shadow-lg rounded-2xl lg:h-[400px] lg:w-[600px] md:h-[300px] md:w-[550px] sm:h-[200px] sm:w-[500px] h-[40px] w-[200px]"
             />
           </div>
         </div>
@@ -55,8 +55,8 @@ const HomeBody = () => {
           <div>
             <img
               src={CEO}
-              alt="Cover Image"
-              className="shadow-lg rounded-2xl lg:h-[360px] lg:w-[400px] md:h-[300px] md:w-[300px] sm:h-[200px] sm:w-[300px] h-[80px] w-[200px]"
+              alt="CEO Image"
+              className="shadow-lg rounded-2xl lg:h-[400px] lg:w-[400px] md:h-[200px] md:w-[200px] sm:h-[150px] sm:w-[200px] h-[40px] w-[100px]"
             />
           </div>
           <div className=" font-sans flex flex-col gap-3">
