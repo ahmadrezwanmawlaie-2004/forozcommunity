@@ -31,16 +31,28 @@ const Navbar = () => {
                 >
                   Opportuities <sup className="text-blue-400">+</sup>
                 </li>
-                <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10">
+                <li
+                  onClick={() => setState(true)}
+                  className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10"
+                >
                   <Link to="/">Home</Link>
                 </li>
-                <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10">
+                <li
+                  onClick={() => setState(true)}
+                  className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10"
+                >
                   About
                 </li>
-                <li className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10">
+                <li
+                  onClick={() => setState(true)}
+                  className="hover:underline hover:decoration-solid hover:decoration-[rgb(184,207,227)] hover:decoration-3 hover:underline-offset-10 active:underline active:decoration-solid active:decoration-[rgb(184,207,227)] active:decoration-3 active:underline-offset-10"
+                >
                   Our Vision
                 </li>
-                <button className="rounded-4xl text-white bg-[#062A7F] font-sans px-[22px] py-3 hover:bg-[#2154c9] active:bg-[#2154c9]">
+                <button
+                  onClick={() => setState(true)}
+                  className="rounded-4xl text-white bg-[#062A7F] font-sans px-[22px] py-3 hover:bg-[#2154c9] active:bg-[#2154c9]"
+                >
                   <Link to="/login">Login</Link>
                 </button>
               </ul>
